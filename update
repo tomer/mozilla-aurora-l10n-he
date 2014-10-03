@@ -1,0 +1,7 @@
+hg pull github
+hg pull 
+hg update
+hg push
+hg push github
+
+cd ../mozilla-aurora-l10n-he.wiki ; echo Last sync: `LANG=en date` > _Sidebar.md ; git commit _Sidebar.md -m "Sync log" ; git push
